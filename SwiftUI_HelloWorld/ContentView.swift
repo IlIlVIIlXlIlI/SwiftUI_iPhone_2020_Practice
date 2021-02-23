@@ -14,8 +14,12 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width:300.0)
-            Text("Hello, world!")
-                .padding()
+                .overlay(
+                    Text("Hello, world!")
+                        .foregroundColor(.white)
+                        .font(.system(size: 30))
+                        .padding(.top,150)
+                )
         }
     }
 }

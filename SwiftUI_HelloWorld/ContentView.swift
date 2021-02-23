@@ -19,7 +19,7 @@ struct ContentView: View {
                 Text("Apple Watch")
             }
             .padding(.all)
-            
+            Spacer()
             VStack(alignment: .trailing, spacing: 15.0) {
                 Text("Macintosh")
                 Text("iPhone")
@@ -27,6 +27,7 @@ struct ContentView: View {
                 Text("Apple Watch")
             }
             .padding(.all)
+            Spacer()
         }
         
         

@@ -14,11 +14,13 @@ struct ContentView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width:300.0)
+                .rotationEffect(.degrees(20))
                 .overlay(
                     Text("Hello, world!")
                         .foregroundColor(.white)
                         .font(.system(size: 30))
                         .padding(.top,150)
+
                 )
         }
         

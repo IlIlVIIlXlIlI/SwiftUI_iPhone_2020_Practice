@@ -21,6 +21,24 @@ struct ContentView: View {
                         .padding(.top,150)
                 )
         }
+        
+        VStack {
+            Circle()
+                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                .frame(width: 200, height: 300)
+            
+            Ellipse()
+                .foregroundColor(.yellow)
+                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
+            
+            Rectangle()
+                .foregroundColor(.green)
+                .frame(width: 300, height: 200)
+            
+            Capsule()
+                .foregroundColor(.purple)
+                .frame(width: 300, height: 100)
+        }
     }
 }
 

@@ -10,13 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
     
-        List {
-            Text("Content")
-            Text("Content")
-            Photo1().frame(height: 150)
-            Text("Content")
-            Text("Content")
-            Photo2().frame(height: 150)
+        NavigationView {
+            List {
+                Text("Content")
+                Text("Content")
+                Photo1().frame(height: 150)
+                Text("Content")
+                Text("Content")
+                Photo2().frame(height: 150)
+            }
+            .navigationTitle(" Watch Series6")
         }
     }
 }

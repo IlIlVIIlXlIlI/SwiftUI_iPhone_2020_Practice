@@ -11,7 +11,6 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            Spacer()
             VStack(alignment: .leading, spacing: 15.0) {
                 Text("Macintosh")
                 Text("iPhone")
@@ -21,7 +20,7 @@ struct ContentView: View {
                     .offset(x: -50, y: 0)
             }
             .padding(.all)
-            .padding(.top,80)
+            
             
             VStack(alignment: .trailing, spacing: 15.0) {
                 Text("Macintosh")
@@ -30,7 +29,7 @@ struct ContentView: View {
                 Text("Apple Watch")
             }
             .padding(.all)
-            .padding(.top,100)
+            .padding(.top,50)
             
             
             VStack {
@@ -39,7 +38,9 @@ struct ContentView: View {
                 Text("Designed by Callfornia")
                     .italic()
                     .offset(x: 50, y: 0)
+                    .padding(.top,5)
             }
+            .padding(100)
         }
         
         

@@ -5,7 +5,7 @@ internal var photoArray:[PhotoData] = makeData()<br>　　
 
 open        : モジュール外からでも自由にアクセスできる<br>
 public      : モジュール外からアクセスできるが、継承とoverrideができない<br>
-internal    : 同一モジュール内なら他のファイルからでもアクセスできる(初期値)<br>　
+internal    : 同一モジュール内なら他のファイルからでもアクセスできる(初期値)<br>
 fileprivate : 同一ファイル内でのみアクセスできる<br>
 private     : 定義されたスコープ内でのみアクセスできる<br>　　
 

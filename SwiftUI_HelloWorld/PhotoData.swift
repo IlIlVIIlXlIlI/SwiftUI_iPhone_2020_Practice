@@ -23,8 +23,9 @@ func makeData()->[PhotoData] {
     dataArray.append(PhotoData(id: 1, imageName: "Yosemite",        title: "Yosemite"))
     dataArray.append(PhotoData(id: 2, imageName: "ElCapitan",       title: "ElCapitan"))
     dataArray.append(PhotoData(id: 3, imageName: "Sierra",          title: "Sierra"))
-    dataArray.append(PhotoData(id: 4, imageName: "Height Sierra",   title: "Height Sierra"))
-    dataArray.append(PhotoData(id: 5, imageName: "Mojave",          title: "Mojave"))
-    dataArray.append(PhotoData(id: 6, imageName: "Catalina",        title: "Catalina"))
-    dataArray.append(PhotoData(id: 7, imageName: "BigSur",          title: "BigSur"))
+    dataArray.append(PhotoData(id: 4, imageName: "Mojave",          title: "Mojave"))
+    dataArray.append(PhotoData(id: 5, imageName: "Catalina",        title: "Catalina"))
+    dataArray.append(PhotoData(id: 6, imageName: "BigSur",          title: "BigSur"))
+    
+    return dataArray
 }

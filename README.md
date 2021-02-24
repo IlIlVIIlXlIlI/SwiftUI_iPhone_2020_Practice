@@ -2,7 +2,7 @@
 
 
 ### 変数photoArrayのアクセス権<br>
-今回は複数のファイルからアクセスできる変数を使った。
+今回は複数のファイルからアクセスできる変数を使った。<br>
 internal var photoArray:[PhotoData] = makeData()<br>　　
 
 open        : モジュール外からでも自由にアクセスできる<br>

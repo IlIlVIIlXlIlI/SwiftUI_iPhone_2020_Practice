@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C488E40D25E6BD9A00857225 /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C488E40C25E6BD9A00857225 /* PhotoData.swift */; };
 		C488E40F25E6BFDB00857225 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C488E40E25E6BFDB00857225 /* RowView.swift */; };
+		C488E41125E6C80000857225 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C488E41025E6C80000857225 /* PhotoDetailView.swift */; };
 		C4912F7825E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4912F7725E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift */; };
 		C4912F7A25E5397900D9C2EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4912F7925E5397900D9C2EE /* ContentView.swift */; };
 		C4912F7C25E5397900D9C2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4912F7B25E5397900D9C2EE /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		C488E40C25E6BD9A00857225 /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
 		C488E40E25E6BFDB00857225 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		C488E41025E6C80000857225 /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
 		C4912F7425E5397900D9C2EE /* SwiftUI_HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4912F7725E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HelloWorldApp.swift; sourceTree = "<group>"; };
 		C4912F7925E5397900D9C2EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,10 +58,11 @@
 		C4912F7625E5397900D9C2EE /* SwiftUI_HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				C4912F7725E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift */,
 				C488E40C25E6BD9A00857225 /* PhotoData.swift */,
 				C488E40E25E6BFDB00857225 /* RowView.swift */,
 				C4912F7925E5397900D9C2EE /* ContentView.swift */,
-				C4912F7725E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift */,
+				C488E41025E6C80000857225 /* PhotoDetailView.swift */,
 				C4912F7B25E5397900D9C2EE /* Assets.xcassets */,
 				C4912F8025E5397900D9C2EE /* Info.plist */,
 				C4912F7D25E5397900D9C2EE /* Preview Content */,
@@ -147,6 +150,7 @@
 				C4912F7A25E5397900D9C2EE /* ContentView.swift in Sources */,
 				C4912F7825E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift in Sources */,
 				C488E40D25E6BD9A00857225 /* PhotoData.swift in Sources */,
+				C488E41125E6C80000857225 /* PhotoDetailView.swift in Sources */,
 				C488E40F25E6BFDB00857225 /* RowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

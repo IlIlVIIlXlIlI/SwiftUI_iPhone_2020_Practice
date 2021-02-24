@@ -19,7 +19,7 @@ struct ContentView: View {
                     destination: SubView()) {
                     Text("AirPods Pro")
                 }
-                .padding(.bottom)
+                .padding(.bottom,30)
                 
                 Image("Apple_AirPods-Pro_New-Design-Case-And-AirPods-Pro_102819")
                     .resizable()
@@ -32,6 +32,7 @@ struct ContentView: View {
                 Spacer()
             }
             .navigationTitle("Music")
+            .padding(.top,60)
         }
     }
 }

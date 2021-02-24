@@ -1,5 +1,7 @@
 # SwiftUI_ListOpen
 
+### 先に詳細ページを作成した
+
 ### リンクを開くには<br>
 NavigationLink(destination: PhotoDetailView(photo: item))<br>
 <img width="510" alt="スクリーンショット 2021-02-25 3 01 13" src="https://user-images.githubusercontent.com/9380171/109044459-c77feb80-7715-11eb-8541-bde53842ca94.png">

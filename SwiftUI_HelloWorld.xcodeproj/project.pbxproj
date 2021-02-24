@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C488E40D25E6BD9A00857225 /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C488E40C25E6BD9A00857225 /* PhotoData.swift */; };
 		C4912F7825E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4912F7725E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift */; };
 		C4912F7A25E5397900D9C2EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4912F7925E5397900D9C2EE /* ContentView.swift */; };
 		C4912F7C25E5397900D9C2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4912F7B25E5397900D9C2EE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C488E40C25E6BD9A00857225 /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
 		C4912F7425E5397900D9C2EE /* SwiftUI_HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4912F7725E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_HelloWorldApp.swift; sourceTree = "<group>"; };
 		C4912F7925E5397900D9C2EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 		C4912F7625E5397900D9C2EE /* SwiftUI_HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				C488E40C25E6BD9A00857225 /* PhotoData.swift */,
 				C4912F7725E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift */,
 				C4912F7925E5397900D9C2EE /* ContentView.swift */,
 				C4912F7B25E5397900D9C2EE /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				C4912F7A25E5397900D9C2EE /* ContentView.swift in Sources */,
 				C4912F7825E5397900D9C2EE /* SwiftUI_HelloWorldApp.swift in Sources */,
+				C488E40D25E6BD9A00857225 /* PhotoData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

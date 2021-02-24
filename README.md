@@ -1,6 +1,7 @@
 # SwiftUI_ContentsTheArrayPhoto
 
-## 変数photoArrayのアクセス権<br>
+
+### 変数photoArrayのアクセス権<br>
 internal var photoArray:[PhotoData] = makeData()<br>　　
 
 open        : モジュール外からでも自由にアクセスできる<br>

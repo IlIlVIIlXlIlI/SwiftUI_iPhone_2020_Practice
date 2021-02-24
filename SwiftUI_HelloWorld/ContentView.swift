@@ -10,19 +10,32 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            NavigationLink(
-                destination: SubView()) {
-                Text("Go to SubView")
+            VStack(alignment: .leading, spacing: 5) {
+                Image("Apple_AirPods-Pro_New-Design_102819")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 200)
+                NavigationLink(
+                    destination: SubView()) {
+                    Text("AirPods Pro")
+                }
+                .padding(.bottom)
+                
+                Image("Apple_AirPods-Pro_New-Design-Case-And-AirPods-Pro_102819")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 200)
+                NavigationLink(
+                    destination: SubView2()) {
+                    Text("AirPods Pro Case")
+                }
+                Spacer()
             }
+            .navigationTitle("Music")
         }
     }
 }
 
-struct SubView: View {
-    var body: some View {
-        Text("SubView")
-    }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Apple_AirPods-Pro_New-Design-Case-And-AirPods-Pro_102819.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

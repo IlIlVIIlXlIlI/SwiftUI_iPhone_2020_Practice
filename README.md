@@ -1,5 +1,3 @@
-# SwiftUI_HelloWorld
+# SwiftUI_iPhone_2020_Practice
 
-Vstack {}
-HStack {}
-を使ってテキストを表示してみた。
+SwiftUIを始めるテンプレート

@@ -1,3 +1,3 @@
 # SwiftUI_RunButton
 
-![Simulator Screen Shot - iPhone 12 Pro - 2021-02-27 at 04 07 39](https://user-images.githubusercontent.com/9380171/109343919-612fd000-78b1-11eb-899e-0d85bd66a331.png)
+<img width="326" alt="スクリーンショット 2021-02-27 4 10 31" src="https://user-images.githubusercontent.com/9380171/109344283-d9969100-78b1-11eb-9c73-24f9f867d798.png"><img width="326" alt="スクリーンショット 2021-02-27 4 10 20" src="https://user-images.githubusercontent.com/9380171/109344280-d7cccd80-78b1-11eb-9019-389adb5fd196.png">

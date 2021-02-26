@@ -27,7 +27,7 @@ struct ContentView: View {
             Image("apple2020")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .opacity(0.5)
+                .opacity(opaValue)
         }
     }
 }

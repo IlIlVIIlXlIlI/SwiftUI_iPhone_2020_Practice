@@ -31,25 +31,43 @@ struct ContentView: View {
                 .padding()
         }
         
-        VStack {
+        //　タップで文字列を変化させる
+        
+//        VStack {
+//            Button("Tap") {
+//                if msg == "Thank you!" {
+//                    msg = "ありがとう！"
+//                } else {
+//                    msg = "Thank you!"
+//                }
+//
+//            }
+//            .font(.headline)
+//            .foregroundColor(.white)
+//            .background(
+//                Capsule()
+//                    .foregroundColor(.green)
+//                    .frame(width: 80, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//            )
+//            // 結果の表示
+//            Text(msg).padding()
+//        }
+        
+        
+        // ラベルを引数Labelで指定する
+        
+        HStack {
+            Text("\(num)")
+                .font(.system(size: 50))
+                .padding()
+            // カウントアップ
             Button("Tap") {
-                if msg == "Thank you!" {
-                    msg = "ありがとう！"
-                } else {
-                    msg = "Thank you!"
-                }
-            
+                num += 1
             }
-            .font(.headline)
-            .foregroundColor(.white)
-            .background(
-                Capsule()
-                    .foregroundColor(.green)
-                    .frame(width: 80, height: 30, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            )
-            // 結果の表示
-            Text(msg).padding()
+            .font(.largeTitle)
         }
+        
+        
     }
 }
 

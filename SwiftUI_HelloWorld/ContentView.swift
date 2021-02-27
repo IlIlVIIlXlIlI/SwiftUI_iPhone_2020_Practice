@@ -39,8 +39,20 @@ struct ContentView: View {
                 .onAppear(perform: {
                     selectedColor = colors.count/2
                 })
-                
             }
+            // 結果の表示
+            HStack {
+                Text("size: \(sizes[selectedSize])")
+                    .padding(.horizontal,40)
+                Text("color: \(colors[selectedColor])")
+                    .padding(.horizontal,30)
+            }
+            .foregroundColor(Color.white)
+            .font(.title2)
+            .background(RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 340, height:  50)
+                            .foregroundColor(Color.green)
+            )
         }
     }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var selectedSize = 2
+    @State var selectedSize = 0
     @State var selectedColor = 0
     let sizes = ["XS","S","M","L","LL"]
     let colors = ["Red","Green","Blue","Yellow","Pink","White"]
@@ -37,6 +37,7 @@ struct ContentView: View {
                 .padding()
                 .clipped()
                 .onAppear(perform: {
+                    selectedSize = sizes.count/2
                     selectedColor = colors.count/2
                 })
             }
